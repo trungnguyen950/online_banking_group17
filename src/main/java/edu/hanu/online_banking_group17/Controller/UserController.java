@@ -110,7 +110,7 @@ public class UserController {
     public String savingMoney(Authentication authentication, Model model) {
         String userName = authentication.getName();
         User user = userRepository.findByUsername(userName);
-//        List<Saving> savingsList = savingRepositoy.findUserByUserId(user.getId());
+        List<Saving> savingsList = savingRepositoy.findUserByUserId(user.getId());
         model.addAttribute("savingsList", savingsList);
 
 //        Hiển thị lên saving package
