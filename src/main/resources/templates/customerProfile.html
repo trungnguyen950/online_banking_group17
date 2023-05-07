@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <title>Customer Profile</title>
     <link rel="stylesheet" type="text/css" th:href="@{/css/customer-profile.css}" href="/css/customer-profile.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 <div class="container">
 
-    <!--    <h1>Customer Profile</h1>-->
 
     <div class="col">
-        <div class="customer-avatar">
+<!--        <div class="customer-avatar">-->
+        <div class="row">
+            <div class="col text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Microsoft_Account.svg" class="me-2 align-content-center" width="300px" height="300px"></img>
+            </div>
         </div>
 
         <tr>
@@ -79,7 +86,18 @@
                     <p class="info" th:text="${user.district}"/>
                 </td>
             </tr>
+            <tr>
+                <td>
+
+
+                </td>
+
+            </tr>
         </div>
+        <div class="row">
+            <div class="col text-center">
+                <a href="http://localhost:8080/customer" class="btn btn-info " role="button">Back</a>
+            </div>
     </div>
 </div>
 </body>

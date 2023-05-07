@@ -10,3 +10,8 @@ function submitForm(e) {
     const form = new FormData(e.target);
     postFormData("POST", "/customer/rest/doTransferMoney", form, success, error)
 }
+
+function relocate_home()
+{
+    location.href = "https://localhost:8080/customer";
+}

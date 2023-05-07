@@ -11,17 +11,17 @@
 <head>
     <title>Admin Page</title>
     <th:block id="manage-loans-package-static-resources">
-        <!--        <link rel="stylesheet" type="text/css" href="/css/admin.css" th:href="@{/css/admin.css}"/>-->
+                <link rel="stylesheet" type="text/css" href="/css/admin.css" th:href="@{/css/manage-admin.css}"/>
     </th:block>
 </head>
 <body>
 <div id="manage-loans-package-nav" th:replace="~{/fragments/admin-menu :: nav-admin}">
     Admin Nav
 </div>
-<div class="container" id="manage-loans-package-main-content">
+<div class="container" id="manage-loans-package-main-content" th:marginwidth="300px">
     <div class="row">
         <div class="col-lg-10 mt-5 mb-5">
-            <h3>Datatable using list of Objects in data parameter</h3>
+            <h3>Loan Package Management</h3>
             <table id="manage-loans-package-table" class="table table-bordered table-responsive" style="width: 100%">
                 <thead>
                 <tr>
