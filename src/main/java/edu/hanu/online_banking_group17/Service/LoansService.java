@@ -4,6 +4,7 @@ package edu.hanu.online_banking_group17.Service;
 import edu.hanu.online_banking_group17.Model.Loans;
 import edu.hanu.online_banking_group17.Model.LoansPackage;
 import edu.hanu.online_banking_group17.Model.User;
+import edu.hanu.online_banking_group17.Model.custom.LoansPackageRepositoryCustom;
 import edu.hanu.online_banking_group17.Repository.*;
 import edu.hanu.online_banking_group17.handling_exepctions.DataInvalidException;
 import edu.hanu.online_banking_group17.rest.model.LoansMoneyInput;

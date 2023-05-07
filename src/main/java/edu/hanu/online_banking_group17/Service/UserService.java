@@ -1,17 +1,12 @@
 package edu.hanu.online_banking_group17.Service;
 
-import com.example.online_banking.exception.DataInvalidException;
-import com.example.online_banking.model.User;
-import com.example.online_banking.repository.UserRepository;
-import com.example.online_banking.repository.custom.UserRepositoryCustom;
-import com.example.online_banking.rest.model.ChangeUserStatusInput;
-import com.example.online_banking.rest.model.ErrorCode;
-import com.example.online_banking.rest.model.Page;
-import com.example.online_banking.rest.model.PagingRequest;
-import com.example.online_banking.utils.Constants;
+
 import edu.hanu.online_banking_group17.Model.User;
+import edu.hanu.online_banking_group17.Model.custom.UserRepositoryCustom;
 import edu.hanu.online_banking_group17.Repository.UserRepository;
 import edu.hanu.online_banking_group17.handling_exepctions.DataInvalidException;
+import edu.hanu.online_banking_group17.rest.model.ChangeUserStatusInput;
+import edu.hanu.online_banking_group17.rest.model.PagingRequest;
 import edu.hanu.online_banking_group17.utils.Constants;
 import edu.hanu.online_banking_group17.utils.ErrorCode;
 import org.springframework.beans.factory.annotation.Autowired;

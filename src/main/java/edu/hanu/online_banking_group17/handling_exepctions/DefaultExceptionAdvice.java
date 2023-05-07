@@ -1,6 +1,6 @@
 package edu.hanu.online_banking_group17.handling_exepctions;
 
-import com.example.online_banking.rest.model.ResponseData;
+import edu.hanu.online_banking_group17.rest.model.ResponseData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
